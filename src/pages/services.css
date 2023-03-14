@@ -1,0 +1,63 @@
+main {
+    height: 984px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size:13px;
+  
+    justify-content: space-around ; 
+  }
+  .main__div--left {
+    display: flex;
+    flex-direction: column;  
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 25px;
+    height: auto;
+    
+  }
+  .main_div_left-start,
+  .main_div_left-middle,
+  .main_div_left-end {
+    background-color: #e6e6e6;
+    margin-top: 1.2rem;
+    padding: 1.2rem;
+
+  }
+  .main__div--left h4 {
+    font-size: 1rem;
+  }
+  .main__div--left p {
+    font-size: 1rem;
+  }
+  .main__div--rigth {
+    display: flex;
+    flex-direction: column;  
+    margin: 25px;
+    padding: 25px;
+    background-color: #35424a;
+    height: 350px;
+    width: 500px;
+  }
+  
+  .main_div_rigth-name-input,
+  .main_div_rigth-email-input,
+  .main_div_rigth-message-input {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+  .main__div--rigth h4, .main__div--rigth label, .main__div--rigth input{
+    margin-top: 6px;
+    color: #e6e6e6;
+  }
+  .main__div--rigth button{
+    width: 10rem;
+    background-color: #e8491d;
+    border: none;
+    height: 2rem;
+    color: aliceblue;
+
+  
+  }

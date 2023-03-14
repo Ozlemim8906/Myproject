@@ -1,0 +1,26 @@
+
+.ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#35424a;
+    height: 100px;
+    padding: 0px 25px;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    border-color:2px solid red;
+   
+  }
+  .ctn p{
+    color:white;
+    font-size: 1.5rem;
+}
+.ctn button{
+    background-color: #e8491d;
+    color: aliceblue;
+    border: none;
+    padding: 0.1rem;
+}
+

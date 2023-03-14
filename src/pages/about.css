@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    justify-content: space-between;  
+    
+}
+main .main__left {
+     display: flex;
+    flex-direction: column;
+    margin: 25px;   
+    font-size: 1.3rem; 
+}
+.main__left h4{
+  padding:20px ;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+
+}
+.main__left p {
+  padding: 10px;
+
+} 
+.main__left--p2{
+  background-color: #35424a;
+  color: aliceblue;
+  font-size: 1.3rem;
+
+}
+main .main__rigth {
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.main__rigth h4{
+  color: aliceblue;
+  background-color: #35424a;
+  font-size: 1.3rem;
+
+}  .main__rigth p{
+  padding: 10px;
+  background-color: #35424a;
+  color: aliceblue;
+  font-size: 1.3rem;
+
+}

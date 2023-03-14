@@ -1,0 +1,14 @@
+.clarusway{
+        padding: 15px;
+        background-color: #35424a;
+        text-align: center;
+        color: aliceblue;
+     margin-top: 150px;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     padding: 2rem;
+     height: 110px;
+      }
